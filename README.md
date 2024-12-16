@@ -19,7 +19,7 @@ void main() {
     stdout.write('Elige una opción: ');
     String? choice = stdin.readLineSync();
 
-    switch (choice) {
+    switch (option) {
       case '1':
         mostrarPlatillos(menuItems);
         break;
